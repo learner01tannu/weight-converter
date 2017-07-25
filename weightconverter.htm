@@ -1,0 +1,343 @@
+<html>
+<title>Pounds to Kilogram weight convertor</title>
+<body>
+
+<h2>Weight Convertor</h2>
+<p>Type a value in Pounds to convert in kilogram.</p>
+
+<p>
+<label>Pounds</label>
+<input id="inputPounds" type="number" placeholder="Pounds" 
+oninput="weightconverter1(this.value)" onchange="weightconverter(this.value)">
+</p>
+<p>Kilograms: <span id="outputKilogramsA"></span></p>
+
+<script>
+function weightconverter1(valNum) {
+document.getElementById("outputKilogramsA").innerHTML=valNum/2.2046;
+}
+</script>
+
+
+<p>Type a value in Pounds to convert in Ounces.</p>
+
+<p>
+<label>Pounds</label>
+<input id="inputPounds" type="number" placeholder="Pounds"
+oninput="weightconverter2(this.value)" onchange="weightconverter2(this.value)">
+</p>
+<p>Ounces: <span id="outputOuncesA"></span></p>
+
+<script>
+function weightconverter2(valNum) {
+document.getElementById("outputOuncesA").innerHTML=valNum*16;
+}
+</script>
+
+<p>Type a value in Pounds to convert in Grams.</p>
+
+<p>
+<label>Pounds</label>
+<input id="inputPounds" type="number" placeholder="Pounds"
+oninput="weightconverter3(this.value)" onchange="weightconverter3(this.value)">
+</p>
+<p>Grams: <span id="outputGramsA"></span></p>
+
+<script>
+function weightconverter3(valNum) {
+document.getElementById("outputGramsA").innerHTML=valNum/0.0022046;
+}
+</script>
+
+<p>Type a value in Pounds to convert in Stones.</p>
+
+<p>
+<label>Pounds</label>
+<input id="inputPounds" type="number" placeholder="Pounds"
+oninput="weightconverter4(this.value)" onchange="weightconverter4(this.value)">
+</p>
+<p>Stones: <span id="outputStonesA"></span></p>
+
+<script>
+function weightconverter4(valNum) {
+document.getElementById("outputStonesA").innerHTML=valNum*0.071429;
+}
+</script>
+
+
+
+
+<p>Type a value in Kilograms to convert in Pounds.</p>
+
+<p>
+<label>Kilograms</label>
+<input id="inputKilograms" type="number" placeholder="Kilograms"
+oninput="weightconverterB1(this.value)" onchange="weightconverterB1(this.value)">
+</p>
+<p>Pounds: <span id="outputPoundsB"></span></p>
+
+<script>
+function weightconverterB1(valNum) {
+document.getElementById("outputPoundsB").innerHTML=valNum*2.2046;
+}
+</script>
+
+
+<p>Type a value in Kilograms to convert in Ounces.</p>
+
+<p>
+<label>Kilograms</label>
+<input id="inputKilograms" type="number" placeholder="Kilograms"
+oninput="weightconverterB2(this.value)" onchange="weightconverterB2(this.value)">
+</p>
+<p>Ounces: <span id="outputOuncesB"></span></p>
+
+<script>
+function weightconverterB2(valNum) {
+document.getElementById("outputOuncesB").innerHTML=valNum*35.274;
+}
+</script>
+
+<p>Type a value in Kilograms to convert in Grams.</p>
+
+<p>
+<label>Kilograms</label>
+<input id="inputKilograms" type="number" placeholder="Kilograms"
+oninput="weightconverterB3(this.value)" onchange="weightconverterB3(this.value)">
+</p>
+<p>Grams: <span id="outputGramsB"></span></p>
+
+<script>
+function weightconverterB3(valNum) {
+document.getElementById("outputGramsB").innerHTML=valNum*1000;
+}
+</script>
+
+
+<p>Type a value in Kilograms to convert in Stones.</p>
+
+<p>
+<label>Kilograms</label>
+<input id="inputKilograms" type="number" placeholder="Kilograms"
+oninput="weightconverterB4(this.value)" onchange="weightconverterB4(this.value)">
+</p>
+<p>Stones: <span id="outputStonesB"></span></p>
+
+<script>
+function weightconverterB4(valNum) {
+document.getElementById("outputStonesB").innerHTML=valNum*0.1574;
+}
+</script>
+
+
+<p>Type a value in Ounces to convert in Pounds.</p>
+
+<p>
+<label>Ounces</label>
+<input id="inputOunces" type="number" placeholder="Ounces"
+oninput="weightconverterC1(this.value)" onchange="weightconverterC1(this.value)">
+</p>
+<p>Pounds: <span id="outputPoundsC"></span></p>
+
+<script>
+function weightconverterC1(valNum) {
+document.getElementById("outputPoundsC").innerHTML=valNum*0.0625;
+}
+</script>
+
+
+
+<p>Type a value in Ounces to convert in Kilograms.</p>
+
+<p>
+<label>Ounces</label>
+<input id="inputOunces" type="number" placeholder="Ounces"
+oninput="weightconverterC2(this.value)" onchange="weightconverterC2(this.value)">
+</p>
+<p>Kilograms: <span id="outputKilogramsC"></span></p>
+
+<script>
+function weightconverterC2(valNum) {
+document.getElementById("outputKilogramsC").innerHTML=valNum/35.274;
+}
+</script>
+
+
+
+<p>Type a value in Ounces to convert in Grams.</p>
+
+<p>
+<label>Ounces</label>
+<input id="inputOunces" type="number" placeholder="Ounces"
+oninput="weightconverterC3(this.value)" onchange="weightconverterC3(this.value)">
+</p>
+<p>Grams: <span id="outputGramsC"></span></p>
+
+<script>
+function weightconverterC3(valNum) {
+document.getElementById("outputGramsC").innerHTML=valNum/0.035274;
+}
+</script>
+
+
+
+<p>Type a value in Ounces to convert in Stones.</p>
+
+<p>
+<label>Ounces</label>
+<input id="inputOunces" type="number" placeholder="Ounces"
+oninput="weightconverterC4(this.value)" onchange="weightconverterC4(this.value)">
+</p>
+<p>Stones: <span id="outputStonesC"></span></p>
+
+<script>
+function weightconverterC4(valNum) {
+document.getElementById("outputStonesC").innerHTML=valNum*0.0044643;
+}
+</script>
+
+
+<p>Type a value in Grams to convert in Pounds.</p>
+
+<p>
+<label>Grams</label>
+<input id="inputGrams" type="number" placeholder="Grams"
+oninput="weightconverterD1(this.value)" onchange="weightconverterD1(this.value)">
+</p>
+<p>Pounds: <span id="outputPoundsD"></span></p>
+
+<script>
+function weightconverterD1(valNum) {
+document.getElementById("outputPoundsD").innerHTML=valNum*0.0022046;
+}
+</script>
+
+
+
+<p>Type a value in Grams to convert in Kilograms.</p>
+
+<p>
+<label>Grams</label>
+<input id="inputGrams" type="number" placeholder="Grams"
+oninput="weightconverterD2(this.value)" onchange="weightconverterD2(this.value)">
+</p>
+<p>Kilograms: <span id="outputKilogramsD"></span></p>
+
+<script>
+function weightconverterD2(valNum) {
+document.getElementById("outputKilogramsD").innerHTML=valNum/1000;
+}
+</script>
+
+
+
+
+<p>Type a value in Grams to convert in ounces.</p>
+
+<p>
+<label>Grams</label>
+<input id="inputGrams" type="number" placeholder="Grams"
+oninput="weightconverterD3(this.value)" onchange="weightconverterD3(this.value)">
+</p>
+<p>Ounces: <span id="outputOuncesD"></span></p>
+
+<script>
+function weightconverterD3(valNum) {
+document.getElementById("outputOuncesD").innerHTML=valNum*0.035274;
+}
+</script>
+
+
+
+<p>Type a value in Grams to convert in Stones.</p>
+
+<p>
+<label>Grams</label>
+<input id="inputOunces" type="number" placeholder="Grams"
+oninput="weightconverterD4(this.value)" onchange="weightconverterD4(this.value)">
+</p>
+<p>Stones: <span id="outputStonesD"></span></p>
+
+<script>
+function weightconverterD4(valNum) {
+document.getElementById("outputStonesD").innerHTML=valNum*0.00015747;
+}
+</script>
+
+
+
+
+<p>Type a value in Stones to convert in Pounds.</p>
+
+<p>
+<label>Stones</label>
+<input id="inputStones" type="number" placeholder="Stones"
+oninput="weightconverterE1(this.value)" onchange="weightconverterE1(this.value)">
+</p>
+<p>Pounds: <span id="outputPoundsE"></span></p>
+
+<script>
+function weightconverterE1(valNum) {
+document.getElementById("outputPoundsE").innerHTML=valNum*14;
+}
+</script>
+
+
+
+
+
+
+<p>Type a value in Stones to convert in Kilograms.</p>
+
+<p>
+<label>Stones</label>
+<input id="inputStones" type="number" placeholder="Stones"
+oninput="weightconverterE2(this.value)" onchange="weightconverterE2(this.value)">
+</p>
+<p>Kilograms: <span id="outputKilogramsE"></span></p>
+
+<script>
+function weightconverterE2(valNum) {
+document.getElementById("outputKilogramsE").innerHTML=valNum*/0.15747;
+}
+</script>
+
+
+
+
+<p>Type a value in Stones to convert in Ounces.</p>
+
+<p>
+<label>Stones</label>
+<input id="inputStones" type="number" placeholder="Stones"
+oninput="weightconverterE3(this.value)" onchange="weightconverterE3(this.value)">
+</p>
+<p>Ounces: <span id="outputOuncesE"></span></p>
+
+<script>
+function weightconverterE3(valNum) {
+document.getElementById("outputOuncesE").innerHTML=valNum*224;
+}
+</script>
+
+
+
+<p>Type a value in Stones to convert in Grams.</p>
+
+<p>
+<label>Stones</label>
+<input id="inputStones" type="number" placeholder="Stones"
+oninput="weightconverterE4(this.value)" onchange="weightconverterE4(this.value)">
+</p>
+<p>Grams: <span id="outputGramsE"></span></p>
+
+<script>
+function weightconverterE4(valNum) {
+document.getElementById("outputGramsE").innerHTML=valNum*0.00015747;
+}
+</script>
+
+
+</body>
+</html>
+
